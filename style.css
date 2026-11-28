@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-    --theme-color: #9B8AC4;
+    --theme-color: #8064B5;
 }
 * {
   box-sizing: border-box;
@@ -18,7 +18,7 @@ body {
     margin: 0;
     padding: 30px;
     color: #333;
-    background-color: #FAF8FC;
+   background-color: #F3EFFA;
 }
 /* --------------------
         見出し
@@ -75,7 +75,7 @@ th, td {
   padding: 0.5rem;
 }
 /* プロフィール写真 */
-　profile-photo {
+　.profile-photo {
     width: 180px;
     height: 180px;
     object-fit: cover;
