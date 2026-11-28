@@ -3,9 +3,8 @@
 -------------------- */
 
 :root {
-  --theme-color: #9B8AC4;
+    --theme-color: #9B8AC4;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -76,7 +75,7 @@ th, td {
   padding: 0.5rem;
 }
 /* プロフィール写真 */
-.profile-photo {
+　profile-photo {
     width: 180px;
     height: 180px;
     object-fit: cover;
