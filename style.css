@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color: #00a0a0;
+  --theme-color: #9B8AC4;
 }
 
 * {
@@ -16,11 +16,11 @@ html, body {
 }
 
 body {
-  margin: 0;
-  padding: 30px;
-  color: #333;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+    background-color: #FAF8FC;
 }
-
 /* --------------------
         見出し
 -------------------- */
@@ -74,4 +74,20 @@ th {
 th, td {
   border: solid 1px #f0f0f0;
   padding: 0.5rem;
+}
+/* プロフィール写真 */
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+/* 動画・作品の表示サイズ */
+.embedded-content {
+    max-width: 100%;
+    border: none;
+    display: block;
+    margin: 20px auto;
 }
